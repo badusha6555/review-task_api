@@ -9,7 +9,6 @@ class TaskProvider extends ChangeNotifier {
 
   bool isLoading = false;
 
-  final Dio dio = Dio();
 
   Future<List<TaskModel>> getTask() async {
     isLoading = true;
